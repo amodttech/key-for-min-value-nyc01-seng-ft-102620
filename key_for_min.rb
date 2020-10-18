@@ -12,14 +12,3 @@ name_hash.each do |key, value|
   end
   lowest_key
 end
-
-
-
-
-winner = ""
-passengers.each do |suite, name|
-  if suite == :suite_a && name.start_with?("A")
-    winner = name
-  end
-end
- 
